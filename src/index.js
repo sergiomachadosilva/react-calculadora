@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container'
 import './index.css';
-import App from './App';
+import Calculadora from './calculadora';
 import * as serviceWorker from './serviceWorker';
 
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Container className="d-flex justify-content-center mt-5">
+    <Calculadora />
+  </Container>,
   document.getElementById('root')
 );
 

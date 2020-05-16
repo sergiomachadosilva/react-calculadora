@@ -1,0 +1,9 @@
+.jumbotron-custom {
+    background-color: #007bff;
+    width: 385px;
+    padding: 3rem 2rem;
+}
+
+.jumbotron-custom button {
+    width: 100%;
+}
